@@ -10,6 +10,11 @@
   </parent>
 
   <artifactId>submodule</artifactId>
-
+  <groupId>org.ucosp</groupId>
   <name>Submodule Test Build</name>
+  <packaging>pom</packaging>
+
+<modules>
+    <module>bundles/module</module>
+</modules>
 </project> 
